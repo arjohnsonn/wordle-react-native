@@ -9,5 +9,6 @@
    <p>- Guessing & typing mechanics</p>
    <p>- Letters appear green, yellow, or gray depending on if it is in the right place, wrong place, or not in the word at all</p>
    <p>- Pretty much Wordle, except you can get a new word by restarting the app or playing again at the end of the game</p>
-   <img src="https://github.com/user-attachments/assets/89715166-751b-4bf1-8f63-d46cdc3a6e62" width=400 height=900 />
+   <img src="https://github.com/user-attachments/assets/81ab089f-65aa-4292-9a87-ef54bf07b31f" width=400 height=900 />
+
 </div>
