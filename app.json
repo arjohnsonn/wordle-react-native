@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "wordle",
+    "slug": "wordle",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/wordle.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/wordle.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/wordle.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/wordle.png",
+          "resizeMode": "cover",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "splash": {
+      "image": "./assets/images/wordle.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
