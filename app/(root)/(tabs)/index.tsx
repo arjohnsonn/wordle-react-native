@@ -78,17 +78,18 @@ export default function Index() {
         "Play again?",
         [
           {
+            text: "No",
+            onPress: () => {},
+          },
+          {
             text: "Yes",
             onPress: () => {
               setCorrectWordStr(getRandomWord());
               setWords([...INITIAL_WORDS]);
               setWordGuessData([...INITIAL_GUESS_DATA]);
               setCurrentWord(0);
+              setLetterData({});
             },
-          },
-          {
-            text: "No",
-            onPress: () => {},
           },
         ],
         "default"
@@ -107,6 +108,7 @@ export default function Index() {
                   setWords([...INITIAL_WORDS]);
                   setWordGuessData([...INITIAL_GUESS_DATA]);
                   setCurrentWord(0);
+                  setLetterData({});
                 },
               },
             ]
