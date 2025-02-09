@@ -8,6 +8,7 @@
    <p>- Features a hundred different words for the game to randomly from (locally)</p>
    <p>- Guessing & typing mechanics</p>
    <p>- Letters appear green, yellow, or gray depending on if it is in the right place, wrong place, or not in the word at all</p>
+   <p>- Keyboard coloring based on previous guesses & if its letters were green, yellow, or gray
    <p>- Pretty much Wordle, except you can get a new word by restarting the app or playing again at the end of the game</p>
    <img src="https://github.com/user-attachments/assets/81ab089f-65aa-4292-9a87-ef54bf07b31f" width=400 height=900 />
 </div>
